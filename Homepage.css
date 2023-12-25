@@ -1,0 +1,101 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: url(images/netflix.jpg);
+}
+.nav{
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.62);
+}
+.logo{
+    margin-left: 170px;
+    font-size:xx-large;
+    height: 110px;
+    padding-bottom: 10px;
+
+}
+.lang{
+    margin-left:690px;
+    margin-top: 20px;
+    border-radius: 4px;
+        width: 100px;
+        height: 55px;
+        border: 0;
+        border-color: black;
+       background-color: rgba(240, 248, 255, 0.088);
+       color: aliceblue;
+       font-weight: 500;
+       cursor: pointer;
+       
+}
+.signout{
+    margin-top: 20px;
+    margin-right: 180px;
+    width: 100px;
+    height: 55px;
+    border: 0;
+    outline: none;
+    background-color: rgb(201, 15, 15);
+    color: aliceblue;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: xx-large;
+    max-width: 100%;
+    max-height: 100%;
+    font-weight: 800;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.533);
+    padding-top: 130px;
+}
+.para1{
+    display: flex;
+    margin-bottom: 250px;
+    font-weight: 900 bolder;
+    margin-top: 200px;
+    margin-left: 190px;
+  
+}
+.para1 h4{
+    margin-left:300px;
+    font-weight: 100;
+}
+.para1 h5{
+    margin-left: 130px;
+    font-weight: 100;
+}
+.email{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    font-size:medium;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: aliceblue;
+    border: 1 rem solid white;
+
+}
+.get{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(201, 15, 15);
+    color: aliceblue;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
